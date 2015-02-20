@@ -26,7 +26,7 @@
                         <i class="fa fa-bars" style="color:white;"></i>
                     </button>
                     <a class="navbar-brand page-scroll" href="#page-top">
-                    <i class="fa fa-play-circle"></i>  <span class="light"></span>Anti-Napoles
+                    <i class="fa fa-play-circle"></i>  <span class="light"></span>BMS
                 </a>
                 </div>
 

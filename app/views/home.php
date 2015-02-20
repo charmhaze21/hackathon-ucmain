@@ -44,7 +44,7 @@
                     <i class="fa fa-bars"></i>
                 </button>
                 <a class="navbar-brand page-scroll" href="#page-top">
-                    <i class="fa fa-play-circle"></i>  <span class="light"></span>Anti-Napoles
+                    <i class="fa fa-play-circle"></i>  <span class="light"></span>BMS
                 </a>
             </div>
 
@@ -77,7 +77,7 @@
             <div class="container">
                 <div class="row">
                     <div class="col-md-8 col-md-offset-2">
-                        <h1 class="brand-heading">Anti-Napoles</h1>
+                        <h1 class="brand-heading">BMS</h1>
                         <p class="intro-text">A site that shows the expenses of Municipalities.</p>
                         <a href="#about" class="btn btn-circle page-scroll">
                             <i class="fa fa-angle-double-down animated"></i>
