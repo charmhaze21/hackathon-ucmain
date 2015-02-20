@@ -1,2 +1,2 @@
-{{$mystring2}}
+{{$users}}
 
