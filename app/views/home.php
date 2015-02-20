@@ -120,11 +120,11 @@
                                 <i class="fa fa-trash fa-fw"></i> <span class="network-name"></span>
                             </a>
                        </td>  -->
-                        <td>Lahug</td> 
-                        <td>January</td> 
-                        <td>Calamity Fund</td> 
+                        <td>Tabunok</td> 
+                        <td>December</td> 
+                        <td>Educational System</td> 
                         <td>P 500,000</td> 
-                        <td>P 500,000</td> 
+                        <td>P 400,000</td> 
                         <td>P 100,000</td> 
                     </tr>
 
@@ -138,10 +138,10 @@
                                 <i class="fa fa-trash fa-fw"></i> <span class="network-name"></span>
                             </a>
                        </td>   -->
-                        <td>Lahug</td> 
-                        <td>January</td> 
+                        <td>MInglanilla</td> 
+                        <td>November</td> 
                         <td>Calamity Fund</td> 
-                        <td>P 500,000</td> 
+                        <td>P 600,000</td> 
                         <td>P 500,000</td> 
                         <td>P 100,000</td> 
                     </tr>
@@ -155,12 +155,12 @@
                                 <i class="fa fa-trash fa-fw"></i> <span class="network-name"></span>
                             </a>
                        </td>  -->
-                        <td>Lahug</td> 
+                        <td>Cebu City</td> 
                         <td>January</td> 
-                        <td>Calamity Fund</td> 
+                        <td>Road Projects</td> 
+                        <td>P 1,500,000</td> 
+                        <td>P 1,000,000</td> 
                         <td>P 500,000</td> 
-                        <td>P 500,000</td> 
-                        <td>P 100,000</td> 
                     </tr>             
                 </tbody>
             </table>
