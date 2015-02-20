@@ -33,7 +33,18 @@ class InfoController extends \BaseController {
 	 */
 	public function store()
 	{
-		//
+		$input = Input::all();
+		//$user_id = User::find(1);
+        $info = new Info;
+        $info->month    = $input['month'];
+        $info->budget   = $input['budget'];
+        $info->balance  = $input['balance'];
+        $info->expenses = $input['expenses'];
+        $info->amount   = $input['amount'];
+
+        $info->save();
+        
+        return Response::json(['Saved'=>'Ok']);
 	}
 
 

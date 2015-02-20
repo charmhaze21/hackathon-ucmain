@@ -12,7 +12,28 @@
 */
 Route::get('/', function()
 {
-	return View::make('hello');
+	return View::make('home');
+});
+
+Route::get('/home', function()
+{
+	$users = Route::resource('users', 'UserController');
+	return View::make('home')->with(array('users', $users));
+});
+
+Route::get('/index', function()
+{
+	return View::make('home');
+});
+
+Route::get('/login', function()
+{
+	return View::make('login');
+});
+
+Route::get('/main', function()
+{
+	return View::make('main');
 });
 //Route::get('/users','UserController@store');
 //Route::get('/users2', 'UserController@userslist2');

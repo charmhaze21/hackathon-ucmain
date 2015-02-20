@@ -19,6 +19,7 @@ class CreateUsersTable extends Migration {
 			$table->string('password', 50);
 			$table->string('email', 50);
 			$table->string('municipal_name', 50);
+			$table->timestamps();
 		});
 	}
 

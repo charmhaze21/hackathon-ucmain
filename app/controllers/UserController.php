@@ -11,9 +11,8 @@ class UserController extends \BaseController {
 	{
 		$users = User::all();
 
-   
-        //return View::make('userslist')
-            //->with('users', $users);
+   		
+        
          return Response::json(['users', $users]);
 	}
 
@@ -46,18 +45,23 @@ class UserController extends \BaseController {
   //       if ($validator->fails()) {
   //           return Respone::json(['error'=>'Incorrect Fields. Try again.']);
   //       }else{
-  //           $user = new User;
-  //           $user->username       = Input::get('name');
-  //           $user->email      = Input::get('email');
-  //           $user->nerd_level = Input::get('nerd_level');
-  //           $user->save();
 
-  //           // redirect
-  //           Session::flash('message', 'Successfully created nerd!');
-  //           return Redirect::to('nerds');
+
+			$input = Input::all();
+
+            $user = new User;
+            $user->username   = $input['username'];
+            $user->password   = $input['password'];
+            $user->email      = $input['email'];
+            $user->municipal_name = $input['municipal_name'];
+            $user->save();
+
+
+            // redirect
+           return Response::json(['user' => $user]);
   //       }
 
-        return Response::json(['hello'=>'hello']);
+       // return Response::json(['Sucess'=>'Registered!']);
 
 	}
 

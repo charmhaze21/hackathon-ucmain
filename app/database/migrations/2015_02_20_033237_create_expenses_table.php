@@ -19,6 +19,7 @@ class CreateExpensesTable extends Migration {
 			$table->string('description', 100);
 			$table->decimal('amount', 5, 2);
 			$table->integer('info_id')->unsigned();
+			$table->timestamps();
 
 			$table->foreign('info_id')->references('id')->on('infos');
 		});
