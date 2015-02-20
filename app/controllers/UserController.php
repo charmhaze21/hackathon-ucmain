@@ -58,7 +58,7 @@ class UserController extends \BaseController {
 
 
             // redirect
-           return Response::json(['user' => $user]);
+           return Response::json(['Response' => 'OK']);
   //       }
 
        // return Response::json(['Sucess'=>'Registered!']);

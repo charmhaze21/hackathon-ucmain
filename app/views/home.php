@@ -9,7 +9,7 @@
     <meta name="description" content="">
     <meta name="author" content="">
 
-    <title>Anti-Napoles</title>
+    <title>BMS</title>
 
     <!-- Bootstrap Core CSS -->
     <link href="css/bootstrap.css" rel="stylesheet">
@@ -170,7 +170,7 @@
     <!-- Footer -->
     <footer style="background-color: #000; color: white; ">
         <div class="container text-center">
-            <p>Copyright &copy; ANTI-NAPOLES</p>
+            <p>Copyright &copy; BMS</p>
         </div>
     </footer>
 
